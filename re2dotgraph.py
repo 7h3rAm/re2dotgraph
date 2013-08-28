@@ -53,7 +53,7 @@ def genDotGraph():
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("USAGE: %s <regex> [file.png]")
+        print "USAGE: %s <regex> [file.png]" % (sys.argv[0])
         sys.exit(1)
     else:
         regex = sys.argv[1]
