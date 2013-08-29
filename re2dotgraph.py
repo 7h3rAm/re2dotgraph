@@ -13,11 +13,7 @@ def getDotString():
 
     print
     print "[+] Generating dot string ..."
-    fsa4re = recompiler.compileRE(regex)
-    fsa4re = fsa4re.sorted()
-    fsa4re = fsa4re.determinized()
-    fsa4re = fsa4re.minimized()
-    fsa4re = fsa4re.trimmed()
+    fsa4re = recompiler.compileRE(regex).determinized().minimized().trimmed().sorted()
 
     print "[+] Label: %s" % (fsa4re.label)
     print "[+] states: %s" % (fsa4re.states)

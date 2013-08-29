@@ -13,7 +13,7 @@ USAGE:
 
 EXAMPLE:
 --------
-<pre>
+```html
 ./re2dotgraph.py 'a+(b*)c?'
 
 [+] Generating dot string ...
@@ -33,9 +33,10 @@ EXAMPLE:
 
 [+] Generating dot graph ...
 [+] regex: 'a+(b*)c?' -> regex.png
-</pre>
+```
 
 
 GRAPH:
 ------
 ![Graph for regex 'a+(b*)c?'](regex.png "regex.png")
+
