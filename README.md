@@ -6,14 +6,14 @@ Visualize a (non-POSIX) regular expression using pyFSA and dot
 
 USAGE:
 ------
-```html
+```sh
 ./re2dotgraph.py <regex> [file.png]
 ```
 
 
 EXAMPLE:
 --------
-```html
+```sh
 ./re2dotgraph.py 'a+(b*)c?'
 
 [+] Generating dot string ...
