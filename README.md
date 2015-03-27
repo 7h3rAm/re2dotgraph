@@ -40,3 +40,7 @@ GRAPH:
 ------
 ![Graph for regex 'a+(b*)c?'](regex.png "regex.png")
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/7h3rAm/re2dotgraph/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
